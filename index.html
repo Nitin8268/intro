@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:0%">
+    <div class="bgimg" style="margin-right: 60%;"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+        <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+        <a href="#home" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+        <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+    <div id="bgimg" class="w3-main w3-padding-large" style="margin-right:60%; display:none;"></div>
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+        <h1 class="w3-jumbo"><b>Nitin Kumar</b></h1>
+        <h3>🆆🅴🅱 🅳🅴🆅🅴🅻🅾🅿🅴🆁</h3>
+        <img src="data/img3.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+        <img src="data/img3.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+            <i class="fa fa-download"></i> Download Resume
+        </button>
+    </header>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+        <h2 class="w3-text-black w3-center">My Portfolio</h2>
+        <hr class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+                <img src="data/pic1.png" style="width:100%">
+                <img src="data/pic2.jpg" style="width:100%">
+                <img src="data/pic3.png" style="width:100%">
+            </div>
+
+            <div class="w3-half">
+                <img src="data/pic4.jpg" style="width:100%">
+                <img src="data/pic5.jpg" style="width:100%">
+                <img src="data/pic6.png" style="width:100%">
+                <img src="data/pic7.png" style="width:100%">
+            </div>
+        </div>
+        <!-- End photo grid -->
+    </div>
+    <!-- End Portfolio Section -->
+</div>
+
+<!-- About Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-32 w3-center" id="about">
+    <h2 class="w3-text-black">About</h2>
+    <hr class="w4-opacity">
+    <p>Hello!, I'm <b>Nitin Kumar</b>, a passionate web developer with a flair for crafting dynamic and visually appealing websites. My journey in the world of web development began with a fascination for turning ideas into interactive digital experiences.</p>
+
+    <p>I specialize in creating responsive and user-friendly websites using a combination of HTML, CSS, and JavaScript. Whether it's designing pixel-perfect user interfaces or implementing complex backend functionality with PHP and SQL, I'm committed to delivering high-quality results.</p>
+
+    <p>When I'm not coding, you'll find me exploring new coding techniques, staying up-to-date with the latest industry trends, and collaborating with fellow developers. I'm a firm believer in the power of teamwork and continuous learning to drive innovation in the digital landscape.</p>
+
+    <p>Feel free to explore my portfolio to see some of the projects I've worked on and get in touch if you're interested in collaborating or just want to chat about web development!</p>
+    <h3 class="w3-padding-16 w3-text-black">My Skills</h3>
+    <p class="w3-wide">Front-End</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Back-End</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Responsive Website</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:99%">99%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">14+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">55+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">89+</span><br>
+            Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">150+</span><br>
+            Meetings
+        </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-black">My Reputation</h3>
+    <!-- You should add the actual images here -->
+    <img src="avatar1.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Fardeen Hussain</span> Client</p>
+    <p>Nitin is just awesome. I am so happy to have met him!</p><br>
+
+    <img src="avatar2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Chris Fox</span> CEO at Mighty Schools.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
+
+    <img src="avatar3.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex</span> CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p><br>
+
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-black">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+                <li class="w3-padding-16">HTML Structure</li>
+                <li class="w3-padding-16">Browser View</li>
+                <li class="w3-padding-16">Future Updates</li>
+                <li class="w3-padding-16">Mail Support</li>
+                <li class="w3-padding-16">
+                    <h2 >USD $12.11/INR ₹1000 </h2>
+                    <span class="w3-opacity">Per Day</span>
+                </li>
+                <li class="w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-white w3-padding-large w3-hover-black">Contact Now</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w3-half">
+            <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+                <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+                <li class="w3-padding-16">Html/CSS</li>
+                <li class="w3-padding-16">Bootstrap</li>
+                <li class="w3-padding-16">Hosting As</li>
+                <li class="w3-padding-16">Endless Support</li>
+                <li class="w3-padding-16">
+                    <h2>USD $24.22/INR ₹2000 </h2>
+                    <span class="w3-opacity">Per Day</span>
+                </li>
+                <li class="w3-light-grey w3-padding-24">
+                    <button class="w3-button w3-white w3-padding-large w3-hover-black">Contact Now</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Grid/Pricing tables -->
+</div>
+
+<!-- Contact Section -->
+<div class="w3-padding-32 w3-content w3-text-grey " id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bijnor, UP, INDIA</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +9 8273346828</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: nk7060646828@gmail.com</p>
+    </div>
+
+    <!-- Image of location/map -->
+    <!-- <img src="form.png" class="w3-image w3-greyscale" style="width:100%; margin:32px 0"> -->
+    <h1 class="w3-hover-text-red w3-hover-opacity w3-center"><i class="fa fa-angle-double-down" aria-hidden="true"></i>    <b>Fill the form Below</b>    <i class="fa fa-angle-double-down" aria-hidden="true"></i><h1>
+    <h4 class="w3-hover-text-purple">Let's get in touch, Send me a message  <i class="fa fa-hand-o-down" aria-hidden="true"></i></h4>
+
+    <form action="/process_form.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+        </p>
+        <p>Feel free to contact me via email or through the contact form below</p>
+    </form>
+    <!-- End Contact Section -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-pink"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-github w3-hover-text-black" aria-hidden="true"></i>
+    <i class="fa fa-twitter w3-hover-text-cyan"></i>
+    <i class="fa fa-whatsapp w3-hover-text-teal" aria-hidden="true"></i>
+    <i class="fa fa-linkedin w3-hover-text-blue"></i>
+    <p class="w3-medium"><a href="#" target="_blank" class="w3-hover-text-green">&copy; 2023 Nitin Kumar. All rights reserved.</a></p>
+    <!-- End footer -->
+</footer>
+</div>
+<!-- END PAGE CONTENT -->
+
+<script src="main.js" crossorigin="anonymous"></script>
+</body>
+</html>
